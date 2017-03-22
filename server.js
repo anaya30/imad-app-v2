@@ -71,11 +71,6 @@ function hash(input) {
 }
 
 
-app.get('/hash/:input',function(req,res) {
-   var hashedString=hash(req.params.input 'This is some random strin');
-   res.send(hashedString);
-});
-
 app.get('/article-one',function(req,res){
     res.send(createTemplate(articleOne));
 });
