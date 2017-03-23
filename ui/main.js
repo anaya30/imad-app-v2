@@ -19,6 +19,6 @@ button.onclick = function () {
     };    
     //make the request
     request.open('GET',' http://anaya30.imad.hasura-app.io/counter', true);
- 
+    request.send(null);
 
 };
